@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://neo4j-contrib.github.io/',
+	base: '/graph-annotation/',
 	integrations: [
 		starlight({
 			title: 'Graph Annotation',
